@@ -1,0 +1,4 @@
+password : ztYyeKCHTGI7ugbW
+username: praveenuppar718
+
+mongodb+srv://praveenuppar718:ztYyeKCHTGI7ugbW@holidaybooking.2fi0rov.mongodb.net/?retryWrites=true&w=majority&appName=HolidayBooking
