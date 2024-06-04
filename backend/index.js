@@ -21,7 +21,7 @@ app.use("/uploads", express.static(__dirname + "/uploads"));
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173",
+    origin: "https://665e9ff1c5fcfdc594f71264--voluble-cajeta-a822b9.netlify.app/",
   })
 );
 mongoose.connect(
