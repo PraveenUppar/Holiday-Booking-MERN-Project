@@ -21,7 +21,7 @@ app.use("/uploads", express.static(__dirname + "/uploads"));
 app.use(
   cors({
     credentials: true,
-    origin: "https://localhost:4000",
+    origin: "https://holiday-booking-mern-project.vercel.app/",
   })
 );
 mongoose.connect(
