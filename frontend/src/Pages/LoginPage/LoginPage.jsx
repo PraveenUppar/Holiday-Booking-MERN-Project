@@ -11,7 +11,7 @@ const Login = () => {
 
   async function login(ev) {
     ev.preventDefault();
-    const response = await fetch("https://holiday-booking-mern-project.vercel.app/login", {
+    const response = await fetch("https://localhost:4000", {
       method: "POST",
       body: JSON.stringify({ email, password }),
       headers: { "Content-Type": "application/json" },
